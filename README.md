@@ -1,6 +1,9 @@
 # tinyEasyMuduoWebServer
 This project is a tiny easy web server which is based on linux QtCreator C++, muduo, jsoncpp, MySQL and manually implemented HTTP protocol.
 
+# preview
+[csdn preview](https://blog.csdn.net/weixin_45178775/article/details/122257814)
+
 # required dependencies
 You need to execute the following commands to install the required dependencies.
 
