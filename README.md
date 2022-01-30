@@ -15,5 +15,10 @@ Then you need to configure your database information so that the program can int
 Finally, you need to install static library muduo.
 [configure muduo](https://github.com/chenshuo/muduo)
 
+# database table structure
+|id |license_plate |time |ip |
+|---|---|---|---|
+|int|varchar(20)|timestamp|varchar(20)|
+
 # run
 Configure the .pro file to make sure your libs can link to the program and build in QtCreater.
