@@ -22,3 +22,5 @@ Finally, you need to install static library muduo.
 
 # run
 Configure the .pro file to make sure your libs can link to the program and build in QtCreater.
+
+After building the project you need to put the background image in the root directory of the build project.
