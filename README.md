@@ -1,2 +1,19 @@
 # tinyEasyMuduoWebServer
-<font color="#ff00ff">this project is a tiny easy web server which is based on linux QtCreator C++, muduo, jsoncpp, MySQL and manually implemented HTTP protocol.</font>
+This project is a tiny easy web server which is based on linux QtCreator C++, muduo, jsoncpp, MySQL and manually implemented HTTP protocol.
+
+# required dependencies
+You need to execute the following commands to install the required dependencies.
+
+```sh
+sudo apt-get install libjsoncpp-dev
+sudo apt-get install mysql-server mysql-client
+```
+
+Then you need to configure your database information so that the program can interact with your database normally.
+[configure MySQL](https://www.cnblogs.com/wuhou/archive/2008/09/28/1301071.html)
+
+Finally, you need to install static library muduo.
+[configure muduo](https://github.com/chenshuo/muduo)
+
+# run
+Configure the .pro file to make sure your libs can link to the program and build in QtCreater.
